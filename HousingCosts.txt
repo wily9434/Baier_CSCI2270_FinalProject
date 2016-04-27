@@ -1,0 +1,7 @@
+Town, Water Cost, Electricity Cost, Internet Cost, Waste Management Cost, Gas to Boulder (Assuming you go to Boulder 20 days per month.)
+Boulder,33,35,40,18,0
+Longmont,23,31,50,17,78
+Broomfield,25,42,40,36,66
+Louisville,19,42,40,15,47
+Superior,36,42,40,10,34
+Lafayette,24,42,60,14,56
