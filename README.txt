@@ -11,3 +11,6 @@ This program only utilizes cmath, iostream, sstream, and fstream libraries, so y
 libraries assuming you already have an IDE to work with C++.
 
 This program was created by Patrick Baier, thank you for checking it out!
+
+#Bugs
+-Would enter an infinite loop if user inputes a string at the main menue instead of an integer.
