@@ -55,6 +55,28 @@ int main()
         cout<<"6. Remove a city from the list."<<endl;
         cout<<"7. Quit."<<endl;
         cin>>choice;
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////
+        ///This is a simple little code that tells the user to input an integer in order to run the code
+        ///Before, if user typed in letters at the main menu, it would break the code and cause it to
+        ///run in an infinite loop. Omit this if you would like.
+        while(cin.fail()){
+            cout<< "Please type in a number between 1-7" <<endl;f
+            cin.clear();
+            cin.ignore(256,'\n');
+            cout<<"Welcome to the Boulder Area utility price comparison tool!"<<endl;
+            cout<<"1. Recommend a town based on budget."<<endl;
+            cout<<"2. Print the names of the towns."<<endl;
+            cout<<"3. Display the utility costs of each town for one person."<<endl;
+            cout<<"4. Find a town and its average monthly utility cost for one person."<<endl;
+            cout<<"5. Find the estimated price given rent and roommates."<<endl;
+            cout<<"6. Remove a city from the list."<<endl;
+            cout<<"7. Quit."<<endl;
+            cin>>choice;
+        }
+        /////////////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////////
+
         if (choice==2)
         {
             Boulderarea.printTownNames();
